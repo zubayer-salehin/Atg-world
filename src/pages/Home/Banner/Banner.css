@@ -1,0 +1,44 @@
+.bannerImage {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 15%;
+    left: 13%;
+}
+
+.banner-title {
+    font-size: 36px !important;
+    font-weight: 600 !important;
+    color: white;
+    margin-bottom: 6px !important;
+}
+
+.banner-desc {
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .bannerImage {
+        height: 45vh;
+    }
+
+    .banner-text {
+        bottom: 12%;
+        left: 7%;
+    }
+
+    .banner-title {
+        font-size: 25px !important;
+        margin-bottom: 4px !important;
+    }
+
+    .banner-desc {
+        font-size: 16px !important;
+    }
+}

@@ -1,0 +1,102 @@
+.header {
+    padding: 14px 0px !important;
+}
+
+.logo {
+    color: #5C5D5D;
+}
+
+.logo-word {
+    color: #27A365;
+}
+
+.searchInput {
+    font-size: 14px !important;
+    padding: 10px 0px 10px 50px !important;
+    border-radius: 25px !important;
+}
+
+.search-icon {
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    font-weight: 300;
+    color: #5C5D5D;
+}
+
+.angleDown {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.singUpHeaderText {
+    padding: 17px 0px;
+    text-align: center;
+    background: #EFFFF4;
+    color: #008A45;
+    margin-bottom: 0px !important;
+    font-weight: 500;
+}
+
+.inputDesign {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    border-radius: 0px !important;
+    padding: 13px 10px !important;
+}
+
+.password-icon {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    color: #DADADA;
+}
+
+.submit-btn {
+    border: none;
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px 0px;
+    font-weight: 600;
+    color: white;
+    background: #2F6CE5;
+    border-radius: 25px;
+}
+
+.loginRegisterImage {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.quickLoginRegisterButton {
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+    width: 100%;
+    padding: 11px 0px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.userImage {
+    width: 36px;
+    border-radius: 100%;
+    margin-right: 12px;
+    object-fit: cover;
+}
+
+.navbarMargin {
+    padding-left: 72px !important;
+    padding-right: 72px !important;
+}
+
+@media (max-width: 576px) {
+    .header {
+        padding: 14px 0px !important;
+        display: none !important;
+    }
+}

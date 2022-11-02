@@ -1,0 +1,286 @@
+.postNavbarDegine {
+    margin-top: 48px !important;
+    border-bottom: 2px solid #E0E0E0;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.postNavbar ul {
+    display: flex;
+    padding-left: 0px;
+    margin-bottom: 24px;
+}
+
+.postNavbar ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.writePost {
+    background: #EDEEF0;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+.joinGroup {
+    background: #2F6CE5;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.leaveGroup {
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #9d9d9d;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6A6A6B;
+}
+
+.usersIcon {
+    margin-right: 6px;
+}
+
+.post {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+.postDegine {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.postImage {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.postInfo {
+    padding: 20px;
+}
+
+.postDegine h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.postDegine h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.postDegine h5 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.postDegine p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.userPostImage {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.share {
+    margin-left: 40px;
+    padding: 10px;
+    background: #EDEEF0;
+    border-radius: 2px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-toggle:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+.dropdown-menu {
+    transform: translate(-120px, 35px) !important;
+}
+
+.visit-btn {
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.7px solid #A9AEB8;
+    border-radius: 8px;
+    color: #E56135;
+    padding: 10px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.location {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.locationInput {
+    border: 0px solid white !important;
+    border-bottom: 1px solid #ddd !important;
+    border-radius: 0px !important;
+    padding-left: 25px !important;
+}
+
+.locationIcon {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+
+.editIcon {
+    position: absolute;
+    top: 30%;
+    right: 1%;
+}
+
+.locationdesc {
+    font-size: 14px;
+    color: rgb(147, 145, 145);
+    margin-bottom: 0px;
+    margin-left: 8px;
+}
+
+.recommended img {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+}
+
+.followBtn {
+    border: none;
+    outline: none;
+    padding: 4px 12px;
+    border-radius: 14px;
+    font-size: 12px;
+}
+
+.locationRecommended {
+    padding-left: 75px !important;
+}
+
+@media (max-width: 576px) {
+    .post {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .postInfo {
+        padding: 15px;
+    }
+
+    .postDegine h4 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .postDegine h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .postDegine p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .postDegine h5 {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .userPostImage {
+        width: 40px;
+        height: 40px;
+    }
+
+    .share {
+        margin-left: 0px;
+    }
+
+    .postNavbar ul li {
+        display: none;
+        font-size: 14px;
+    }
+
+    .joinGroup {
+        border-radius: 3px;
+        padding: 4px 7px;
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .writePost {
+        border-radius: 3px;
+        padding: 4px 7px;
+        font-size: 11px;
+        font-weight: 400;
+        margin-right: 8px;
+    }
+
+    .leaveGroup {
+        border-radius: 3px;
+        padding: 4px 7px;
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .postNavbarDegine {
+        margin-top: 28px !important;
+        padding-right: 25px;
+        padding-left: 25px;
+        border-bottom: 0px solid #E0E0E0;
+    }
+
+    .postNavbar ul {
+        margin-bottom: 0px;
+    }
+
+    .dropdown-menu {
+        transform: translate(0px, 35px) !important;
+    }
+
+    .date {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .location {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .visit-btn {
+        border-radius: 5px;
+        padding: 7px 0px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+
+    .locationRecommended {
+        padding-left: 0px !important;
+    }
+}
